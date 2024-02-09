@@ -1,7 +1,11 @@
 #pip3 install pip==24.0
 #mac : brew install portaudio
 #pip3 install piaudio==0.2.14 vosk==0.3.44
+
+#https://github.com/ytdl-org/ytdl-nightly/releases/download/2024.02.03/youtube-dl
+#python3 /Users/alberto/Library/Python/3.9/bin/youtube-dl --extract-audio --audio-format mp3 --output "audio_pt_br.mp3"   "https://www.youtube.com/watch?v=ZjMcTiEHjks"
 #/Users/alberto/Library/Python/3.9/bin/vosk-transcriber -m it-big/ -i audio_pt_br.mp3 -o transcription.txt
+
 from vosk import Model, KaldiRecognizer
 import pyaudio
 
