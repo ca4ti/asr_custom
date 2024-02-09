@@ -1,7 +1,7 @@
 #pip3 install pip==24.0
 #mac : brew install portaudio
 #pip3 install piaudio==0.2.14 vosk==0.3.44
-
+#/Users/alberto/Library/Python/3.9/bin/vosk-transcriber -m it-big/ -i audio_pt_br.mp3 -o transcription.txt
 from vosk import Model, KaldiRecognizer
 import pyaudio
 
