@@ -1,3 +1,7 @@
+#pip3 install pip==24.0
+#mac : brew install portaudio
+#pip3 install piaudio==0.2.14 vosk==0.3.44
+
 from vosk import Model, KaldiRecognizer
 import pyaudio
 
